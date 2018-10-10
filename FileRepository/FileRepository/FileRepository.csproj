@@ -1,7 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RepositoryUrl>https://github.com/mscheetz/FileRepository</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/mscheetz/FileRepository</PackageProjectUrl>
+    <Authors>Matt Scheetz</Authors>
+    <Description>Library for interacting with files on file system with generic object types for .Net Standard</Description>
+    <PackageReleaseNotes>Updated for .Net Standard</PackageReleaseNotes>
+    <PackageTags>file interaction generic</PackageTags>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
