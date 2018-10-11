@@ -1,2 +1,2 @@
 # FileRepository
-Read/Write/Validate to file built using .net core
+Read/Write/Validate to file built using .Net Standard  
