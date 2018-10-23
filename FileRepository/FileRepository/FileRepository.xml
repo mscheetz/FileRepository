@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileRepository</name>
+    </assembly>
+    <members>
+        <member name="M:FileRepository.FileRepository.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:FileRepository.FileRepository.FileExists(System.String)">
+            <summary>
+            Check if config file exists
+            </summary>
+            <param name="path">Path to file</param>
+            <returns>Boolean of validation</returns>
+        </member>
+        <member name="M:FileRepository.FileRepository.GetDataFromFile``1(System.String)">
+            <summary>
+            Get data from a file
+            </summary>
+            <typeparam name="T">Type of object to return</typeparam>
+            <param name="path">Path to file</param>
+            <returns>New object from file data</returns>
+        </member>
+        <member name="M:FileRepository.FileRepository.UpdateFile``1(``0,System.String)">
+            <summary>
+            Update file
+            </summary>
+            <typeparam name="T">Data type of data to be written</typeparam>
+            <param name="data">Data to be written</param>
+            <param name="path">Path to file</param>
+            <returns>Boolean when complete</returns>
+        </member>
+        <member name="M:FileRepository.IFileRepository.FileExists(System.String)">
+            <summary>
+            Check if config file exists
+            </summary>
+            <param name="path">Path to file</param>
+            <returns>Boolean of validation</returns>
+        </member>
+        <member name="M:FileRepository.IFileRepository.GetDataFromFile``1(System.String)">
+            <summary>
+            Get data from a file
+            </summary>
+            <typeparam name="T">Type of object to return</typeparam>
+            <param name="path">Path to file</param>
+            <returns>New object from file data</returns>
+        </member>
+        <member name="M:FileRepository.IFileRepository.UpdateFile``1(``0,System.String)">
+            <summary>
+            Update file
+            </summary>
+            <typeparam name="T">Data type of data to be written</typeparam>
+            <param name="data">Data to be written</param>
+            <param name="path">Path to file</param>
+            <returns>Boolean when complete</returns>
+        </member>
+    </members>
+</doc>

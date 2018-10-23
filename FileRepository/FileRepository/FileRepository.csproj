@@ -6,9 +6,14 @@
     <PackageProjectUrl>https://github.com/mscheetz/FileRepository</PackageProjectUrl>
     <Authors>Matt Scheetz</Authors>
     <Description>Library for interacting with files on file system with generic object types for .Net Standard</Description>
-    <PackageReleaseNotes>Updated for .Net Standard</PackageReleaseNotes>
+    <PackageReleaseNotes>Include comments</PackageReleaseNotes>
     <PackageTags>file interaction generic</PackageTags>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Source\Git\FileRepository\FileRepository\FileRepository\FileRepository.xml</DocumentationFile>
+    <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
